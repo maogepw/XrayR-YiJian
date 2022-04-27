@@ -13,7 +13,7 @@
 ## 更新
 ### 2022年4月27日
 - 作者删库，本脚本启用备份方案，不受影响 
-- 我的 [XrayR_备份](https://github.com/missuo/XrayR)
+- 我的 [XrayR_备份](https://github.com/maogepw/XrayR)
 
 ### 2022年4月13日
 - 增加了 `ARM64` 的支持（例如Oracle ARM可以完美安装）
@@ -47,15 +47,15 @@ ApiKey: "YOUR_TOKEN" # 修改这里
 ```
 
 
-2. 修改 `install.sh` 文件的169行，将用户名 `missuo` 修改为你自己的GitHub用户名。
+2. 修改 `install.sh` 文件的169行，将用户名 `maogepw` 修改为你自己的GitHub用户名。
 ```
-wget https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/config.yml -O /etc/XrayR/config.yml
+wget https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/config.yml -O /etc/XrayR/config.yml
 ```
 
-3. 修改下面链接的用户名 `missuo` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
+3. 修改下面链接的用户名 `maogepw` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
 ### x86_64
 ```
-bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install.sh)
+bash <(curl -Ls https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/install.sh)
 ```
 ### ARM_64
 ```
