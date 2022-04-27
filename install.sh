@@ -130,7 +130,8 @@ install_XrayR() {
     systemctl enable XrayR
     echo -e "${green}XrayR ${last_version}${plain} 安装完成，已设置开机自启"
     cp geoip.dat /etc/XrayR/
-    cp geosite.dat /etc/XrayR/ 
+    cp geosite.dat /etc/XrayR/
+    cp rulelist /etc/XrayR/
 
     if [[ ! -f /etc/XrayR/config.yml ]]; then
         cp config.yml /etc/XrayR/
