@@ -1,4 +1,4 @@
-# XrayR-V2Board
+# XrayR-YiJian
 用于V2Board的XrayR一键脚本
 
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
