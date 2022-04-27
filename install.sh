@@ -201,8 +201,8 @@ install_XrayR() {
 
     # Writing json
     echo "正在尝试写入配置文件..."
-    #wget https://cdn.jsdelivr.net/gh/missuo/XrayR-YiJian/config.yml -O /etc/XrayR/config.yml
-    curl -o /etc/XrayR/config.yml -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-YiJian/config.yml
+    #wget https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/config.yml -O /etc/XrayR/config.yml
+    curl -o /etc/XrayR/config.yml -Ls https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/config.yml
     sed -i "s/NodeID:.*/NodeID: ${node_id}/g" /etc/XrayR/config.yml
     sed -i "s/NodeType:.*/NodeType: ${node_type}/g" /etc/XrayR/config.yml
     echo ""
