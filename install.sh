@@ -160,7 +160,7 @@ install_XrayR() {
     # 设置节点序号
     echo "设定节点序号"
     echo ""
-    read -p "请输入V2Board中的节点序号:" node_id
+    read -p "请输入您家管理面板中的节点序号:" node_id
     [ -z "${node_id}" ]
     echo "---------------------------"
     echo "您设定的节点序号为 ${node_id}"
