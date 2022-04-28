@@ -1,5 +1,5 @@
 # XrayR-YiJian
-用于V2Board的XrayR一键脚本
+用于ssPanel+V2board的XrayR一键脚本
 
 ![muyI2Z](https://s3.missuo.me/images/muyI2Z.jpg)
 
@@ -55,10 +55,14 @@ wget https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/config.yml -O /etc/XrayR/c
 3. 修改下面链接的用户名 `maogepw` 为你自己的GitHub用户名，完成配置一键安装脚本命令。
 ### x86_64
 ```
+#国内机执行
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/maogepw/XrayR-YiJian/install.sh)
+#国外机执行
+bash <(curl -Ls https://raw.githubusercontent.com/maogepw/XrayR-YiJian/main/install.sh)
 ```
 ### ARM_64
 ```
+#ARM脚本猫哥还没修，暂时不可用
 bash <(curl -Ls https://cdn.jsdelivr.net/gh/missuo/XrayR-V2Board/install-arm.sh)
 ```
 
